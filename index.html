@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            border: 0;
+            margin: 0;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #021526;
+
+          
+        }
+        .itemcontainer{
+            background-color: #E2E2B6;
+            width: 300px;
+            border-radius: 30px;
+            padding: 30px;
+            max-width: 500px;
+        }
+        .imagecontainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20PX;
+        }
+        .images{
+            background-color: white;
+            height: 40PX;
+            border-radius: 5PX;
+            margin-top: 10PX;
+        }
+        h1{
+            color: #071952;
+        }
+        .forflex{
+            display: flex;
+            justify-content: space-between
+        }
+
+        .forflex2{
+            display: flex;
+            gap: 10px;
+        }
+        .longinput{
+            width: 300px;
+            height: 25px;
+            border-radius: 5px;
+            margin-top: 10px;
+
+        }
+        P{
+            margin-top: 20PX;
+            font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+        }
+
+        .paymentmethod{
+            text-align: center;
+        }
+
+        .cvv{
+            height: 25px;
+            border-radius: 5px;
+            margin-top: 10PX;
+            width: 150px;
+        }
+
+        .expiry{
+            width: 140px;
+            height: 25px;
+            border-radius: 5px;
+            margin-top: 10PX
+        }
+
+        .expirydate{
+            margin-right: 65px;
+        }
+
+        button{
+            color: white;
+            font-weight: bold;
+            background-color: #184164f9;
+            margin-left: 104px;
+            margin-top: 20px;
+            width: 100px;
+            height: 25px;
+            border-radius: 5px;
+
+        }
+        footer{
+            margin-top: auto;
+            color: white;
+        }
+
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="itemcontainer">
+            <h1>You are almost done!</h1>
+            <p>Provide us the details of your credit card for making payment.</p>
+            <p class="paymentmethod">Payment methods</p> 
+            <div  class="imagecontainer">
+                <img class="images" src="./mastercard.png" width="50px" alt=""> 
+            <img class="images" src="./google-pay-gpay-logo-11530962961mwws81tde9.png" width="50px" alt=""> 
+            <img class="images" src="./png-transparent-india-rupay-debit-card-bank-credit-card-india-text-trademark-logo.png" width="50px" alt="">
+            </div>
+            <div class="details">
+                <p>Name on card</p>
+                <input class="longinput" type="form">
+                <p>Card Number</p>
+                <input class="longinput" type="form" placeholder="XXXX-XXXX-XXXX-XXXX">
+                <div class="forflex">
+                    <p class="cvvpara">cvv</p> 
+                    <p class="expirydate">Expiry date</p>
+                </div>
+                <div class="forflex2">
+                    <input class="cvv" type="form">
+                    <input class="expiry" type="form"  placeholder="MM/YY"><br>
+                </div>
+                <button>Checkout</button>
+            </div>
+           
+        </div>
+        Akshay
+        
+        
+    </div>
+    
+</body>
+</html>
